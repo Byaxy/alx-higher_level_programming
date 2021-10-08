@@ -12,11 +12,11 @@ class LockedClass():
     unless attribute is "first_name"
 
     >>> a = LockedClass()
-    >>> a.first_name = 'Melissa'
+    >>> a.first_name = 'Charles'
     >>> a.first_name
-    'Melissa'
+    'Charles'
 
-    >>> a.last_name = 'Ng'
+    >>> a.last_name = 'Byaxy'
     Traceback (most recent call last):
     ...
     AttributeError: 'LockedClass' object has no attribute 'last_name'
